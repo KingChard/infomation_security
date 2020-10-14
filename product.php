@@ -1,5 +1,5 @@
 <?php
-include("config.php");
+require("config.php");
 $result = mysqli_query($mysqli, "SELECT * FROM tb_product ORDER BY product_id DESC"); // using mysqli_query instead
 ?>
 <!DOCTYPE html>

@@ -13,7 +13,7 @@ while($res = mysqli_fetch_array($result))
     $product_name = $res['product_name'];
     $quantity = $res['product_quantity'];
     $price = $res['product_price'];
-    $selling_price = $res['product_selling_price'];
+    $selling_price = $res['product_sellingprice'];
     
  
 }
