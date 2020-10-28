@@ -13,8 +13,8 @@ $result = mysqli_query($mysqli, "SELECT * FROM tb_product ORDER BY product_id DE
 </head>
 <body>
 <div class="topnav">
-    <a href="home.html">
-        <img src="image/back.png"   width= "40" height="40" alt="" style="float:right">
+    <a href="dashboard.php">
+        <img src="back.png"   width= "40" height="40" alt="" style="float:right">
        </a>
      
   <h1>PRODUCT</h1>

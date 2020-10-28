@@ -39,10 +39,10 @@ require("config.php");
                 </li>
                
                 <li>
-                    <a href="">ORDERS</a>
+                    <a href="order.php">ORDERS</a>
                 </li>
                 <li>
-                    <a href="">PURCHASES</a>
+                    <a href="purchase.php">PURCHASES</a>
                 </li>
                 <li>
                     <a href="">INVENTORY</a>

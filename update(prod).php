@@ -41,7 +41,7 @@ function productNameValidation(&$product_name){
     }
 
   }catch(\Exception $e){
-    echo "ERROR: " . e;
+    echo "ERROR: " . $e;
   }
 
 
@@ -69,7 +69,7 @@ function quantityValidation(&$quantity){
     }
 
   }catch(\Exception $e){
-    echo "ERROR: " . e;
+    echo "ERROR: " . $e;
   }
 }
 
@@ -95,7 +95,7 @@ function priceValidation(&$price){
     }
 
   }catch (\Exception $e){
-    echo "ERROR: " . e;
+    echo "ERROR: " . $e;
   }
 }
 
@@ -121,7 +121,7 @@ function selling_priceValidation(&$selling_price){
     }
 
   }catch (\Exception $e){
-    echo "ERROR: " . e;
+    echo "ERROR: " . $e;
   }
 }
 
@@ -134,7 +134,7 @@ function dataUpdate(&$product_id, &$product_name, &$quantity, &$price, &$selling
     header("Location:product.php");
 
   }catch(\Exception $e){
-    echo "ERROR: " . e;
+    echo "ERROR: " . $e;
 
   }
 }
